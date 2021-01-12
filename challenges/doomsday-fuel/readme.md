@@ -102,4 +102,6 @@ The algorithm itself should be easy enough to follow. Below are not so much tips
 
 ## Source Code
 
+[answer.py](https://github.com/WhiskeyRomeoTango/GoogleFoobar/blob/main/challenges/doomsday-fuel/answer.py)
+
 For reference and comparison purposes only. Please do not use my solution directly for foobar. It's not helping you or me. 
