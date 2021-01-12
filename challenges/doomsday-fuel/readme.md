@@ -105,3 +105,7 @@ The algorithm itself should be easy enough to follow. Below are not so much tips
 [answer.py](https://github.com/WhiskeyRomeoTango/GoogleFoobar/blob/main/challenges/doomsday-fuel/answer.py)
 
 For reference and comparison purposes only. Please do not use my solution directly for foobar. It's not helping you or me. 
+
+## Bonus Reading
+
+I stumbled upon [this article / textbook page](http://www.math.ubc.ca/~tbjw/ila/stochastic2.html) when I brushed up my Stochastic matrix. It has an interesting section about Google matrix - how it evolutionized Internet search and page ranking. It's a quick interesting read, and you'll see why Google loves to ask these linear algebra questions in their interviews - their company was founded by some linear algebraists after all! :)
