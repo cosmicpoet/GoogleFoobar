@@ -97,7 +97,8 @@ The algorithm itself should be easy enough to follow. Below are not so much tips
 * Since we always start at s0, there is a special case where s0 itself is a terminal state. In that case the answer should just be `[1, 0, ..., 0, 1]`, because we will never come out of s0.
 * Initial input matrix transformation: I believe it's much easier to first do the transformation, and then to convert it to a probability matrix. If you do the transformation first, then the converted matrix is automatically in its Canonical form. During the transformation, not only we need to change the ordering of the rows of the matrices, but we also need to change the ordering of columns in EACH row accordingly. After that we can just convert the transformed input matrix to a probability matrix.
 * There are several ways to implement matrix inversion. The one I chose is by [using minors and cofactors](https://en.wikipedia.org/wiki/Minor_(linear_algebra)#Inverse_of_a_matrix). Personally I feel this is the most straightforward to implement. 
-* If you are like me who implmented matrix operations myself, note that there are special cases when the matrix is 1x1 and 2x2. Matrices with 3x3 and beyond though should be very straightforward.
+* If you are like me who implmented matrix operations myself, note that there are special cases when the matrix is 1x1 and 2x2. Matrices with sizes of 3x3 and beyond though should be just generic.
+* Again, this is a very brute-force implementation. Since at maximum we will only work with a 10x10 matrix, I didn't bother optimizing the code at all.
 
 ## Source Code
 
